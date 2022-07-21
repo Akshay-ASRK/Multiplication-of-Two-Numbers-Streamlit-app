@@ -1,4 +1,2 @@
 python
 streamlit==0.76.0
-pip==22.1.2
-ngrok

@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Multiplication-of-Two-Numbers-Streamlit-app.py
+web: sh setup.sh && streamlit run app.py

@@ -1,4 +1,4 @@
-import streamlit-heroku as st
+import streamlit as st
 
 st.write("""
 # Multiplication of Two Numbers App

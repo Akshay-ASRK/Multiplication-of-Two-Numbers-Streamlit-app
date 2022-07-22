@@ -5,7 +5,10 @@ echo "\
 email = \"akshaykarpe515@yahoo.com"\\n\
 " > ~/.streamlit/credentials.toml
 
-server.connection({
-  port: process.env.PORT || 3000 
-});
+echo "\
+[server]\n\
+headless = true\n\
+enableCORS = false\n\
+port = process.env.$PORT\n\
+" > ~/.streamlit/config.toml
 

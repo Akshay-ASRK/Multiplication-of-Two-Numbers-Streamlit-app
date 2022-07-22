@@ -23,3 +23,5 @@ if st.button("Multiply"):
   b="{:.2f}".format(D['B'])
   c="{:.2f}".format(D['C'])
   st.subheader("Result : "+str(c))
+else:
+  print("Enter A and B value & Press Multiply Button")

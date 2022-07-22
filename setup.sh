@@ -9,6 +9,9 @@ echo "\
 [server]\n\
 headless = true\n\
 enableCORS = false\n\
-port = process.env.$PORT || 3000
+port = $PORT\n\
 " > ~/.streamlit/config.toml
 
+
+heroku config:set PORT=3333
+const PORT = process.env.PORT || 3000 ;

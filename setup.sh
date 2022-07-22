@@ -12,4 +12,4 @@ enableCORS = false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
 
-const PORT = process.env.PORT || 8080 ;
+set('port', process. env. PORT || 8080);

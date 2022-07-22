@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 
 st.write("""
@@ -25,3 +23,7 @@ if st.button("Multiply"):
   b="{:.2f}".format(D['B'])
   c="{:.2f}".format(D['C'])
   st.subheader("Result : "+str(c))
+
+server.connection({
+    port: process.env.PORT || 3000 
+});
